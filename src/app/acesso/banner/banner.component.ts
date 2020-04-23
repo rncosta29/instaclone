@@ -36,7 +36,6 @@ export class BannerComponent implements OnInit {
   }
 
   public logicaRotacao(): void {
-    console.log(this.imagens);
     //variavel para auxiliar a exibição da próxima imagem
     let index: number
     //ocultar imagem
